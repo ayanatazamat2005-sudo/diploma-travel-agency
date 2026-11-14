@@ -39,4 +39,4 @@
 
 ### 4. Sequence: Жекелендірілген тур таңдау
 
-(4-жұмыста қосылады)
+![Sequence](docs/diagrams/04-sequence.png)
