@@ -27,11 +27,11 @@
 
 ### 1. Use Case
 
-(кейін толтырылады)
+![Use Case](docs/diagrams/01-usecase.png)
 
 ### 2. Class
 
-(кейін толтырылады)
+![Class](docs/diagrams/02-class.png)
 
 ### 3. Activity: Жекелендірілген тур таңдау
 
