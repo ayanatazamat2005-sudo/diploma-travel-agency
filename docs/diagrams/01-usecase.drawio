@@ -1,0 +1,24 @@
+<mxfile host="app.diagrams.net"><diagram name="UseCase" id="usecase1"><mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="600" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="title" value="Use Case диаграммасы: Туристік фирманы басқарудың веб-жүйесі" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=16;" vertex="1" parent="1"><mxGeometry x="40" y="6" width="800" height="28" as="geometry"/></mxCell>
+<mxCell id="boundary" value="Туристік фирманың веб-жүйесі" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;fillColor=none;strokeColor=#d6709a;" vertex="1" parent="1"><mxGeometry x="200" y="50" width="660" height="440" as="geometry"/></mxCell>
+<mxCell id="client" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" vertex="1" parent="1"><mxGeometry x="60" y="240" width="30" height="60" as="geometry"/></mxCell>
+<mxCell id="manager" value="Менеджер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" vertex="1" parent="1"><mxGeometry x="940" y="140" width="30" height="60" as="geometry"/></mxCell>
+<mxCell id="admin" value="Әкімші" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" vertex="1" parent="1"><mxGeometry x="940" y="360" width="30" height="60" as="geometry"/></mxCell>
+<mxCell id="uc1" value="Жекелендірілген тур таңдау" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2f7;strokeColor=#d6709a;fontSize=13;" vertex="1" parent="1"><mxGeometry x="230" y="100" width="220" height="70" as="geometry"/></mxCell>
+<mxCell id="uc2" value="Тур мәліметтерін қарау" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2f7;strokeColor=#d6709a;fontSize=13;" vertex="1" parent="1"><mxGeometry x="230" y="210" width="220" height="70" as="geometry"/></mxCell>
+<mxCell id="uc3" value="Тапсырыс беру" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2f7;strokeColor=#d6709a;fontSize=13;" vertex="1" parent="1"><mxGeometry x="230" y="320" width="220" height="70" as="geometry"/></mxCell>
+<mxCell id="uc4" value="Жүйеге кіру" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2f7;strokeColor=#d6709a;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="320" width="220" height="70" as="geometry"/></mxCell>
+<mxCell id="uc5" value="Тапсырыстарды өңдеу" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2f7;strokeColor=#d6709a;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="110" width="220" height="70" as="geometry"/></mxCell>
+<mxCell id="uc6" value="Турларды басқару" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2f7;strokeColor=#d6709a;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="215" width="220" height="70" as="geometry"/></mxCell>
+<mxCell id="uc7" value="Пайдаланушыларды басқару" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2f7;strokeColor=#d6709a;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="410" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="uc8" value="Виза бойынша кеңес алу" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2f7;strokeColor=#d6709a;fontSize=13;" vertex="1" parent="1"><mxGeometry x="230" y="410" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="a8" style="html=1;endArrow=none;" edge="1" parent="1" source="client" target="uc8"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a1" style="html=1;endArrow=none;" edge="1" parent="1" source="client" target="uc1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a2" style="html=1;endArrow=none;" edge="1" parent="1" source="client" target="uc2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a3" style="html=1;endArrow=none;" edge="1" parent="1" source="client" target="uc3"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a4" style="html=1;endArrow=none;" edge="1" parent="1" source="manager" target="uc5"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a5" style="html=1;endArrow=none;" edge="1" parent="1" source="manager" target="uc6"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a6" style="html=1;endArrow=none;" edge="1" parent="1" source="admin" target="uc6"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="a7" style="html=1;endArrow=none;" edge="1" parent="1" source="admin" target="uc7"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="inc" value="«include»" style="html=1;dashed=1;endArrow=open;endSize=8;verticalAlign=bottom;fontSize=12;" edge="1" parent="1" source="uc3" target="uc4"><mxGeometry relative="1" as="geometry"/></mxCell>
+</root></mxGraphModel></diagram></mxfile>
